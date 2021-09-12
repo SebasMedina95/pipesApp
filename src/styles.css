@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/*Usando el styles.css en la carpeta de node_modules, primeng, resources y buscamos el theme que estamos usando
+e instalamos (verificar en el archivo angular.json) -> definimos la variable con var y entre parentesis () se
+encuentra la variable, esta variable viene desde el theme.css del archivo de PrimeNG usado.*/
+html, body {
+    margin: 10px;
+    background-color: var(--surface-a);
+    font-family: var(--font-family);
+}
+
+.text-general {
+    color: var(--text-color);
+}
